@@ -1,7 +1,18 @@
 {
+  "name": "pai-presentation-tdd-coverage",
+  "authors": {
+    "name1": "Gabriel Lorenzo Pérez González <alu0101318318@ull.edu.es>",
+    "name2": "Pablo Pérez González <alu0101233499@ull.edu.es>"
+  },
+  "description": "Code to explain the TDD + Coverage presentation",
+  "version": "1.1.0",
   "scripts": {
     "test": "jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "github:ULL-ESIT-PAI-2021-2022/2021-2022-pai-tdd-codecov-gabriel-pablo.git"
+},
   "devDependencies": {
     "jest": "^27.5.1"
   }
