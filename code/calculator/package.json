@@ -9,10 +9,19 @@
   "scripts": {
     "test": "jest"
   },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": ["./src/**"],
+    "coverageThreshold": {
+      "global": {
+        "lines": 90
+      }
+    }
+  },
   "repository": {
     "type": "git",
     "url": "github:ULL-ESIT-PAI-2021-2022/2021-2022-pai-tdd-codecov-gabriel-pablo.git"
-},
+  },
   "devDependencies": {
     "jest": "^27.5.1"
   }

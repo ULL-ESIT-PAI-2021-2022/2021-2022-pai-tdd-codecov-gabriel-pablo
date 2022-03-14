@@ -5,7 +5,7 @@
  * Programación de Aplicaciones Interactivas
  *
  * @author Pablo Pérez González
- * @author Gabriel Lorenzo Pérez González
+ * @author Lorenzo Gabriel Pérez González
  * @since Mar 12 2022
  * 
  * @desc Sum two numbers
@@ -21,6 +21,9 @@
  * @returns {Number} The sum of the operands
  */
 function sumNumbers(number1, number2) {
+  if (isNaN(number1) || isNaN(number2)) {
+    return 'Invalid operand.';
+  }
   return number1 + number2;
 }
 
