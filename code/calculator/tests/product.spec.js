@@ -28,7 +28,4 @@ describe('Product', () => {
   test('Product with a string is not accepted', () => {
     expect(multiplyNumbers(1, 'a')).toEqual('Invalid operand.');
   });
-  xtest('Product with a bool is not accepted', () => {
-    expect(multiplyNumbers(1, true)).toEqual('Invalid operand.');
-  });
 });

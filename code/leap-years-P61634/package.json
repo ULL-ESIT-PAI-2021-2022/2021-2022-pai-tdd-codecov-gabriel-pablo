@@ -12,7 +12,7 @@
   "jest": {
     "collectCoverage": true,
     "collectCoverageFrom": [
-      "./code/*/src/**"
+      "./src/**"
     ],
     "coverageThreshold": {
       "global": {

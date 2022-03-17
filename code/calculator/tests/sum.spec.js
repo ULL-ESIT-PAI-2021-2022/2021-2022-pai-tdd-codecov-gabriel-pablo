@@ -28,7 +28,4 @@ describe('Sum', () => {
   test('Sum with a string is not accepted', () => {
     expect(sumNumbers(1, 'a')).toEqual('Invalid operand.');
   });
-  xtest('Sum with a bool is not accepted', () => {
-    expect(sumNumbers(1, true)).toEqual('Invalid operand.');
-  });
 });

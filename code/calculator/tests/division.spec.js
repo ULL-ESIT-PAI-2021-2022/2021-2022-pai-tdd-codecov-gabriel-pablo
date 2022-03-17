@@ -28,7 +28,4 @@ describe('Division', () => {
   test('Division with a string is not accepted', () => {
     expect(divideNumbers(1, 'a')).toEqual('Invalid operand.');
   });
-  xtest('Division with a bool is not accepted', () => {
-    expect(divideNumbers(1, true)).toEqual('Invalid operand.');
-  });
 });

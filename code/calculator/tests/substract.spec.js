@@ -31,7 +31,4 @@ describe('Sum', () => {
   test('Substraction with a string is not accepted', () => {
     expect(substractNumbers(1, 'a')).toEqual('Invalid operand.');
   });
-  xtest('Substraction with a bool is not accepted', () => {
-    expect(substractNumbers(1, true)).toEqual('Invalid operand.');
-  });
 });
