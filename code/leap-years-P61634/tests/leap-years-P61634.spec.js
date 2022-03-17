@@ -28,7 +28,7 @@
      expect(isLeap(2000)).toEqual(true);
      expect(isLeap(2004)).toEqual(true);
    });
-   xtest('Tells if a year is not leap', () => {
+   test('Tells if a year is not leap', () => {
      expect(isLeap(2001)).toEqual(false);
      expect(isLeap(1900)).toEqual(false);
   });
