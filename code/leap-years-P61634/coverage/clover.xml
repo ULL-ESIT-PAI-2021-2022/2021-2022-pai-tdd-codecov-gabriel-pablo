@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1647514785993" clover="3.2.0">
-  <project timestamp="1647514785993" name="All files">
+<coverage generated="1647539000268" clover="3.2.0">
+  <project timestamp="1647539000268" name="All files">
     <metrics statements="13" coveredstatements="13" conditionals="11" coveredconditionals="11" methods="2" coveredmethods="2" elements="26" coveredelements="26" complexity="0" loc="13" ncloc="13" packages="1" files="1" classes="1"/>
-    <file name="leap-years-P61634.js" path="/home/gabrip2000/Desktop/PAI/2021-2022-pai-tdd-codecov-gabriel-pablo/code/leap-years-P61634/src/leap-years-P61634.js">
+    <file name="leap-years-P61634.js" path="/home/usuario/presentacion/2021-2022-pai-tdd-codecov-gabriel-pablo/code/leap-years-P61634/src/leap-years-P61634.js">
       <metrics statements="13" coveredstatements="13" conditionals="11" coveredconditionals="11" methods="2" coveredmethods="2"/>
       <line num="23" count="4" type="cond" truecount="2" falsecount="0"/>
       <line num="24" count="3" type="cond" truecount="2" falsecount="0"/>
