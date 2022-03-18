@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1647548773647" clover="3.2.0">
+  <project timestamp="1647548773647" name="All files">
+    <metrics statements="16" coveredstatements="16" conditionals="16" coveredconditionals="16" methods="4" coveredmethods="4" elements="36" coveredelements="36" complexity="0" loc="16" ncloc="16" packages="1" files="4" classes="4"/>
+    <file name="division.js" path="/home/gabrip2000/Desktop/PAI/2021-2022-pai-tdd-codecov-gabriel-pablo/code/calculator/src/division.js">
+      <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <line num="24" count="4" type="cond" truecount="4" falsecount="0"/>
+      <line num="25" count="1" type="stmt"/>
+      <line num="27" count="3" type="stmt"/>
+      <line num="30" count="1" type="stmt"/>
+    </file>
+    <file name="product.js" path="/home/gabrip2000/Desktop/PAI/2021-2022-pai-tdd-codecov-gabriel-pablo/code/calculator/src/product.js">
+      <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <line num="24" count="4" type="cond" truecount="4" falsecount="0"/>
+      <line num="25" count="1" type="stmt"/>
+      <line num="27" count="3" type="stmt"/>
+      <line num="30" count="1" type="stmt"/>
+    </file>
+    <file name="substract.js" path="/home/gabrip2000/Desktop/PAI/2021-2022-pai-tdd-codecov-gabriel-pablo/code/calculator/src/substract.js">
+      <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <line num="24" count="5" type="cond" truecount="4" falsecount="0"/>
+      <line num="25" count="1" type="stmt"/>
+      <line num="27" count="4" type="stmt"/>
+      <line num="30" count="1" type="stmt"/>
+    </file>
+    <file name="sum.js" path="/home/gabrip2000/Desktop/PAI/2021-2022-pai-tdd-codecov-gabriel-pablo/code/calculator/src/sum.js">
+      <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <line num="24" count="4" type="cond" truecount="4" falsecount="0"/>
+      <line num="25" count="1" type="stmt"/>
+      <line num="27" count="3" type="stmt"/>
+      <line num="30" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
