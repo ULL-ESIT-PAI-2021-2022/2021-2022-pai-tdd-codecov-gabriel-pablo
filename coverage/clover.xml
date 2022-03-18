@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1647538983496" clover="3.2.0">
-  <project timestamp="1647538983496" name="All files">
-    <metrics statements="50" coveredstatements="50" conditionals="31" coveredconditionals="31" methods="10" coveredmethods="10" elements="91" coveredelements="91" complexity="0" loc="50" ncloc="50" packages="3" files="6" classes="6"/>
+<coverage generated="1647598532251" clover="3.2.0">
+  <project timestamp="1647598532252" name="All files">
+    <metrics statements="50" coveredstatements="33" conditionals="31" coveredconditionals="29" methods="10" coveredmethods="7" elements="91" coveredelements="69" complexity="0" loc="50" ncloc="50" packages="3" files="6" classes="6"/>
     <package name="armstrong-numbers.src">
-      <metrics statements="21" coveredstatements="21" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+      <metrics statements="21" coveredstatements="4" conditionals="4" coveredconditionals="2" methods="4" coveredmethods="1"/>
       <file name="armstrong.js" path="/home/usuario/presentacion/2021-2022-pai-tdd-codecov-gabriel-pablo/code/armstrong-numbers/src/armstrong.js">
-        <metrics statements="21" coveredstatements="21" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
-        <line num="28" count="4" type="cond" truecount="2" falsecount="0"/>
-        <line num="29" count="2" type="stmt"/>
-        <line num="31" count="2" type="stmt"/>
-        <line num="41" count="9" type="stmt"/>
-        <line num="42" count="9" type="stmt"/>
-        <line num="44" count="9" type="stmt"/>
-        <line num="45" count="15" type="stmt"/>
-        <line num="46" count="15" type="stmt"/>
-        <line num="49" count="9" type="stmt"/>
-        <line num="58" count="6" type="stmt"/>
-        <line num="60" count="6" type="stmt"/>
-        <line num="61" count="6" type="stmt"/>
-        <line num="63" count="6" type="stmt"/>
-        <line num="64" count="14" type="stmt"/>
-        <line num="65" count="14" type="stmt"/>
-        <line num="66" count="14" type="stmt"/>
-        <line num="69" count="6" type="stmt"/>
+        <metrics statements="21" coveredstatements="4" conditionals="4" coveredconditionals="2" methods="4" coveredmethods="1"/>
+        <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
         <line num="79" count="2" type="cond" truecount="2" falsecount="0"/>
         <line num="80" count="1" type="stmt"/>
         <line num="82" count="1" type="stmt"/>

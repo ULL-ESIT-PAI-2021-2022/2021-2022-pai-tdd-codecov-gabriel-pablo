@@ -23,10 +23,10 @@ const isArmstrongNumber = armstrong.isArmstrongNumber;
 
 describe('Armstrong numbers', () => {
   test('Numbers are accepted', () => {
-    expect(checkValue(4)).toEqual(4);  
+    expect(checkValue(4)).toEqual(4);
   });
   test('Strings are not accepted', () => {
-    expect(checkValue('4')).toEqual('Valor no permitido');  
+    expect(checkValue('4')).toEqual('Valor no permitido');
   });
   test('Tells how many digits has a number', () => {
     expect(calcDigits(1)).toEqual(1);
@@ -34,7 +34,7 @@ describe('Armstrong numbers', () => {
     expect(calcDigits(1000000)).toEqual(7);
   });
   test('Calculates with the Armstrong Formula', () => {
-    expect(armstrongValue(10)).toEqual(1);  
+    expect(armstrongValue(10)).toEqual(1);
     expect(armstrongValue(153)).toEqual(153);
   });
   test('Checks if a number is an Armstrong number', () => {
