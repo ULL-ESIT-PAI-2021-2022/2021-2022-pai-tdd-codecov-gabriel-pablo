@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1647623897399" clover="3.2.0">
+  <project timestamp="1647623897399" name="All files">
+    <metrics statements="13" coveredstatements="13" conditionals="16" coveredconditionals="16" methods="4" coveredmethods="4" elements="33" coveredelements="33" complexity="0" loc="13" ncloc="13" packages="1" files="1" classes="1"/>
+    <file name="calculator.js" path="/home/usuario/presentacion/2021-2022-pai-tdd-codecov-gabriel-pablo/code/calculator/src/calculator.js">
+      <metrics statements="13" coveredstatements="13" conditionals="16" coveredconditionals="16" methods="4" coveredmethods="4"/>
+      <line num="24" count="4" type="cond" truecount="4" falsecount="0"/>
+      <line num="25" count="1" type="stmt"/>
+      <line num="27" count="3" type="stmt"/>
+      <line num="38" count="5" type="cond" truecount="4" falsecount="0"/>
+      <line num="39" count="1" type="stmt"/>
+      <line num="41" count="4" type="stmt"/>
+      <line num="52" count="4" type="cond" truecount="4" falsecount="0"/>
+      <line num="53" count="1" type="stmt"/>
+      <line num="55" count="3" type="stmt"/>
+      <line num="66" count="4" type="cond" truecount="4" falsecount="0"/>
+      <line num="67" count="1" type="stmt"/>
+      <line num="69" count="3" type="stmt"/>
+      <line num="72" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
