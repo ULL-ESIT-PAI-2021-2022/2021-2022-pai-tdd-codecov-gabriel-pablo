@@ -97,4 +97,4 @@ function checkValue(value) {
   }
 }
 
-module.exports = {checkValue, armstrongValue, calcDigits, isArmstrongNumber}
+module.exports = {checkValue, armstrongValue, calcDigits, isArmstrongNumber};

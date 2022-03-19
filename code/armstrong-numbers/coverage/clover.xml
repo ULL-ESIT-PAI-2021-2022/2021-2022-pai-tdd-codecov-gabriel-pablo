@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1647719554659" clover="3.2.0">
-  <project timestamp="1647719554660" name="All files">
+<coverage generated="1647720526963" clover="3.2.0">
+  <project timestamp="1647720526963" name="All files">
     <metrics statements="33" coveredstatements="18" conditionals="16" coveredconditionals="2" methods="4" coveredmethods="3" elements="53" coveredelements="23" complexity="0" loc="33" ncloc="33" packages="1" files="1" classes="1"/>
     <file name="armstrong.js" path="/home/gabrip2000/Desktop/2021-2022-pai-tdd-codecov-gabriel-pablo/code/armstrong-numbers/src/armstrong.js">
       <metrics statements="33" coveredstatements="18" conditionals="16" coveredconditionals="2" methods="4" coveredmethods="3"/>
