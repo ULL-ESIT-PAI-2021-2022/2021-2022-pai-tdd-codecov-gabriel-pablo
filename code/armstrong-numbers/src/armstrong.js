@@ -75,11 +75,26 @@ function armstrongValue(number) {
  * @param {Number} value
  * @returns {Number}
  */
-function checkValue(value) {
-  if (typeof(value) !== 'number') {
-    return 'Valor no permitido';
+function checkValue(value) {  
+  if (typeof(value) === 'function') {
+    throw new Error('No se permiten funciones');
+  } else if (typeof(value) === 'string') {
+    throw new Error('No se permiten cadenas de caracteres');
+  } else if (typeof(value) === 'object') {
+    throw new Error('No se permiten objetos');
+  } else if (typeof(value) === 'boolean') {
+    throw new Error('No se permiten booleanos');
+  } else if (typeof(value) === 'undefined') {
+    throw new Error('No se permiten valores indefinidos');
+  } else {
+    if (value < 0) {
+      throw new Error('No se permiten números negativos');
+    } else if (!Number.isInteger(value)) {
+      throw new Error('No se permiten números flotantes');
+    } else {
+      return value;
+    }
   }
-  return value;
 }
 
 module.exports = {checkValue, armstrongValue, calcDigits, isArmstrongNumber}

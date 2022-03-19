@@ -22,11 +22,29 @@ const armstrongValue = armstrong.armstrongValue;
 const isArmstrongNumber = armstrong.isArmstrongNumber;
 
 describe('Armstrong numbers', () => {
-  test('Numbers are accepted', () => {
-    expect(checkValue(4)).toEqual(4);
+  xtest('Positive integers are accepted', () => {
+    expect(checkValue(6)).toEqual(6);
   });
-  test('Strings are not accepted', () => {
-    expect(checkValue('4')).toEqual('Valor no permitido');
+  xtest('Negative integers are not accepted', () => {
+    expect(() => checkValue(-4)).toThrow('No se permiten números negativos');
+  });
+  xtest('Floats are not accepted', () => {
+    expect(() => checkValue(4.5)).toThrow('No se permiten números flotantes');
+  });
+  xtest('Strings are not accepted', () => {
+    expect(() => checkValue('4')).toThrow('No se permiten cadenas de caracteres');
+  });
+  xtest('Functions are no accepted', () => {
+    expect(() => checkValue(() => {})).toThrow('No se permiten funciones');
+  });
+  xtest('Objects are not accepted', () => {
+    expect(() => checkValue(['4'])).toThrow('No se permiten objetos');
+  });
+  xtest('Booleans are no accepted', () => {
+    expect(() => checkValue(true)).toThrow('No se permiten booleanos');
+  });
+  xtest('Undefined values are no accepted', () => {
+    expect(() => checkValue(undefined)).toThrow('No se permiten valores indefinidos');
   });
   test('Tells how many digits has a number', () => {
     expect(calcDigits(1)).toEqual(1);
