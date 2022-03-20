@@ -20,12 +20,12 @@
  * @param {Number} number2 Second operand
  * @returns {Number} The sum of the operands
  */
-// function sumNumbers(number1, number2) {
+function sumNumbers(number1, number2) {
 //   if (isNaN(number1) || isNaN(number2)) {
 //     throw new Error('Invalid operand.');
 //   }
 //   return number1 + number2;
-// }
+}
 
 
 /**
@@ -34,12 +34,12 @@
  * @param {Number} number2 Second operand
  * @returns {Number} The substraction of the operands
  */
-// function substractNumbers(number1, number2) {
+function substractNumbers(number1, number2) {
 //   if (isNaN(number1) || isNaN(number2)) {
 //     throw new Error('Invalid operand.');
 //   }
 //   return number1 - number2;
-// }
+}
 
 
 /**
@@ -48,12 +48,12 @@
  * @param {Number} number2 Second operand
  * @returns {Number} The product of the operands
  */
-//  function multiplyNumbers(number1, number2) {
+ function multiplyNumbers(number1, number2) {
 //   if (isNaN(number1) || isNaN(number2)) {
 //     throw new Error('Invalid operand.');
 //   }
 //   return number1 * number2;
-// }
+}
 
 
 /**
@@ -62,11 +62,11 @@
  * @param {Number} number2 Second operand
  * @returns {Number} The division of the operands
  */
-//  function divideNumbers(number1, number2) {
+ function divideNumbers(number1, number2) {
 //   if (isNaN(number1) || isNaN(number2)) {
 //     throw new Error('Invalid operand.');
 //   }
 //   return Math.floor(number1 / number2);
-// }
+}
 
-// module.exports = {sumNumbers, substractNumbers, multiplyNumbers, divideNumbers};
+module.exports = {sumNumbers, substractNumbers, multiplyNumbers, divideNumbers};

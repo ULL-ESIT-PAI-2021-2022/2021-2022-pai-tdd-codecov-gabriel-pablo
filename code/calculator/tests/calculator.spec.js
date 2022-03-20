@@ -32,7 +32,7 @@ describe('Sum', () => {
 });
 
 
-describe('Sum', () => {
+describe('Substract', () => {
   test('Substraction between two positive numbers', () => {
     expect(substractNumbers(2, 3)).toEqual(-1);
   });
