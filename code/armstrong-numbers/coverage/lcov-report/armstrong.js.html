@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">55.88% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>19/34</span>
+                <span class='fraction'>34/34</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">12.5% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>2/16</span>
+                <span class='fraction'>16/16</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">75% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>3/4</span>
+                <span class='fraction'>4/4</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">54.54% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>18/33</span>
+                <span class='fraction'>33/33</span>
             </div>
         
             
@@ -241,23 +241,23 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -340,24 +340,24 @@ function armstrongValue(number) {
  * @param {Number} value
  * @returns {Number}
  */
-function <span class="fstat-no" title="function not covered" >checkValue(</span>value) {  
-<span class="cstat-no" title="statement not covered" >  if (typeof(value) === 'function') {</span>
-<span class="cstat-no" title="statement not covered" >    throw new Error('No se permiten funciones');</span>
-  } else <span class="cstat-no" title="statement not covered" >if (typeof(value) === 'string') {</span>
-<span class="cstat-no" title="statement not covered" >    throw new Error('No se permiten cadenas de caracteres');</span>
-  } else <span class="cstat-no" title="statement not covered" >if (typeof(value) === 'object') {</span>
-<span class="cstat-no" title="statement not covered" >    throw new Error('No se permiten objetos');</span>
-  } else <span class="cstat-no" title="statement not covered" >if (typeof(value) === 'boolean') {</span>
-<span class="cstat-no" title="statement not covered" >    throw new Error('No se permiten booleanos');</span>
-  } else <span class="cstat-no" title="statement not covered" >if (typeof(value) === 'undefined') {</span>
-<span class="cstat-no" title="statement not covered" >    throw new Error('No se permiten valores indefinidos');</span>
+function checkValue(value) {  
+  if (typeof(value) === 'function') {
+    throw new Error('No se permiten funciones');
+  } else if (typeof(value) === 'string') {
+    throw new Error('No se permiten cadenas de caracteres');
+  } else if (typeof(value) === 'object') {
+    throw new Error('No se permiten objetos');
+  } else if (typeof(value) === 'boolean') {
+    throw new Error('No se permiten booleanos');
+  } else if (typeof(value) === 'undefined') {
+    throw new Error('No se permiten valores indefinidos');
   } else {
-<span class="cstat-no" title="statement not covered" >    if (value &lt; 0) {</span>
-<span class="cstat-no" title="statement not covered" >      throw new Error('No se permiten números negativos');</span>
-    } else <span class="cstat-no" title="statement not covered" >if (!Number.isInteger(value)) {</span>
-<span class="cstat-no" title="statement not covered" >      throw new Error('No se permiten números flotantes');</span>
+    if (value &lt; 0) {
+      throw new Error('No se permiten números negativos');
+    } else if (!Number.isInteger(value)) {
+      throw new Error('No se permiten números flotantes');
     } else {
-<span class="cstat-no" title="statement not covered" >      return value;</span>
+      return value;
     }
   }
 }
@@ -370,7 +370,7 @@ module.exports = {checkValue, armstrongValue, calcDigits, isArmstrongNumber};
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at Sat Mar 19 2022 20:08:46 GMT+0000 (Western European Standard Time)
+                at Sun Mar 20 2022 18:54:28 GMT+0000 (Western European Standard Time)
             </div>
         <script src="prettify.js"></script>
         <script>
