@@ -1,0 +1,51 @@
+{
+    "name": "@pablo-pg/constant-folding",
+    "author": "alu0101318318 <alu0101318318@ull.edu.es>",
+    "description": "Constant Folding javascript code",
+    "version": "1.4.0",
+    "scripts": {
+        "test": "jest",
+        "cov": "nyc npm run test",
+        "full-cov": "npm run clean && npm i && npm run cov",
+        "clean": "rm -rf node_modules package-lock.json",
+        "publish": "npm publish --access=public",
+        "doc": "jsdoc2md src/*.js > docs/README.md",
+        "update-super": "cd ../constant-folding-super-pablo-perez-gonzalez-alu0101318318 && git submodule update --remote ; git add .; git commit -m \"pull\"; git push"
+    },
+    "jest": {
+        "collectCoverage": true,
+        "collectCoverageFrom": ["./src/**"],
+        "coverageThreshold": {
+            "global": {
+                "lines": 90,
+                "functions": 100
+            }
+        }
+    },
+    "repository": {
+        "type": "git",
+        "url": "github:ULL-ESIT-PL-2021/constant-folding-module-pablo-perez-gonzalez-alu0101318318"
+    },
+    "keywords": [
+        "ULL",
+        "constant-folding",
+        "javascript"
+    ],
+    "license": "Unlicense",
+    "dependencies": {
+        "commander": "^7.1.0",
+        "escodegen": "^1.14.3",
+        "espree": "^9.3.1"
+    },
+    "main": "src/constant-folding.js",
+    "bin": {
+        "cf": "./bin/constant-folding-cli.js"
+    },
+    "devDependencies": {
+        "chai": "latest",
+        "jest": "^27.5.1",
+        "jison": "latest",
+        "jsdoc-to-markdown": "^7.1.1",
+        "nyc": "latest"
+    }
+}
