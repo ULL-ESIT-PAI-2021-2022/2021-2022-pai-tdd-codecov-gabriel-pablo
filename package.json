@@ -25,6 +25,13 @@
     "url": "github:ULL-ESIT-PAI-2021-2022/2021-2022-pai-tdd-codecov-gabriel-pablo.git"
   },
   "devDependencies": {
-    "jest": "^27.5.1"
+    "jest": "^27.5.1",
+    "commander": "^7.1.0",
+    "escodegen": "^1.14.3",
+    "espree": "^9.3.1",
+    "chai": "latest",
+    "jison": "latest",
+    "jsdoc-to-markdown": "^7.1.1",
+    "nyc": "latest"
   }
 }
